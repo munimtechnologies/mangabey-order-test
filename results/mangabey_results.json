@@ -1,0 +1,716 @@
+{
+ "analysis": {
+  "W0": {
+   "R": 2000,
+   "pooled_fires": 0.0525,
+   "within_fires": 0.021
+  },
+  "caller_day": {
+   "mean": 3.0,
+   "mh_diff": 0.0,
+   "n_focal": 9,
+   "obs": 3,
+   "p_high": 0.75,
+   "p_low": 0.75,
+   "p_two": 1.0,
+   "strata": 9
+  },
+  "callers": {
+   "TG_in_informative": 40,
+   "TG_total": 43,
+   "informative": 15,
+   "with_GT": 26,
+   "with_TG": 17
+  },
+  "leave_one_caller_out": {
+   "ID2": {
+    "obs_minus_mean": 12.939033189033193,
+    "p_two": 5.1273472007881025e-05
+   },
+   "ID30": {
+    "obs_minus_mean": 12.939033189033193,
+    "p_two": 0.00017355212485233807
+   },
+   "ID31": {
+    "obs_minus_mean": 8.575396825396826,
+    "p_two": 0.007495568646637224
+   },
+   "ID32": {
+    "obs_minus_mean": 9.564033189033193,
+    "p_two": 0.0031203585026902594
+   },
+   "ID34": {
+    "obs_minus_mean": 12.772366522366525,
+    "p_two": 0.00019817276370502098
+   },
+   "ID36": {
+    "obs_minus_mean": 12.022366522366525,
+    "p_two": 0.00021845832507877812
+   },
+   "ID38": {
+    "obs_minus_mean": 13.272366522366525,
+    "p_two": 9.029682507985221e-05
+   },
+   "ID40": {
+    "obs_minus_mean": 12.439033189033191,
+    "p_two": 0.00017566787954407333
+   },
+   "ID42": {
+    "obs_minus_mean": 13.16125541125541,
+    "p_two": 8.3035683401268e-05
+   },
+   "ID46": {
+    "obs_minus_mean": 12.064033189033193,
+    "p_two": 0.0002611186785704305
+   },
+   "ID47": {
+    "obs_minus_mean": 12.605699855699857,
+    "p_two": 0.00023069320907094588
+   },
+   "ID49": {
+    "obs_minus_mean": 10.79617604617605,
+    "p_two": 0.0009312090558298688
+   },
+   "ID50": {
+    "obs_minus_mean": 12.689033189033193,
+    "p_two": 0.00021323213266821048
+   },
+   "ID7": {
+    "obs_minus_mean": 12.939033189033193,
+    "p_two": 0.00017355212485233807
+   },
+   "ID8": {
+    "obs_minus_mean": 12.36760461760462,
+    "p_two": 0.00030003812429742536
+   }
+  },
+  "main": {
+   "mean": 7.060966810966807,
+   "mh_diff": 0.6435966911302912,
+   "n_focal": 40,
+   "obs": 20,
+   "p_high": 8.677606242616904e-05,
+   "p_low": 0.9999780581504429,
+   "p_two": 0.00017355212485233807,
+   "strata": 15
+  },
+  "pooled": {
+   "mean": 3.9747899159663866,
+   "mh_diff": 0.5835373317013465,
+   "n_focal": 43,
+   "obs": 20,
+   "p_high": 0.00014285886270052147,
+   "p_low": 0.9999461790018402,
+   "p_two": 0.00028571772540104295,
+   "strata": 1
+  },
+  "power": {
+   "0.15": 0.321,
+   "0.30": 0.864
+  },
+  "secondary": {
+   "FE": {
+    "mean": 10.549062049062048,
+    "mh_diff": -0.3257549929121284,
+    "n_focal": 40,
+    "obs": 4,
+    "p_high": 0.9999847878030746,
+    "p_holm": 0.0013858928612329974,
+    "p_low": 0.00023098214353883288,
+    "p_two": 0.00046196428707766577,
+    "strata": 15
+   },
+   "GI": {
+    "mean": 17.610028860028855,
+    "mh_diff": 0.3178416982181629,
+    "n_focal": 40,
+    "obs": 24,
+    "p_high": 0.0022287993489406195,
+    "p_holm": 0.008915197395762478,
+    "p_low": 0.9996019603286787,
+    "p_two": 0.004457598697881239,
+    "strata": 15
+   },
+   "INF": {
+    "mean": 15.943362193362193,
+    "mh_diff": 0.2515207522115954,
+    "n_focal": 40,
+    "obs": 21,
+    "p_high": 0.011594786423347343,
+    "p_holm": 0.023189572846694685,
+    "p_low": 0.9973472905769104,
+    "p_two": 0.023189572846694685,
+    "strata": 15
+   },
+   "first_call": {
+    "mean": 17.951154254805363,
+    "mh_diff": 0.41816469200148204,
+    "n_focal": 66,
+    "obs": 33,
+    "p_high": 0.0002661397926256183,
+    "p_low": 0.9998979345527552,
+    "p_two": 0.0005322795852512366,
+    "strata": 17
+   }
+  }
+ },
+ "anchors": {
+  "call.name": {
+   "GT": {
+    "callers": 26,
+    "n": 76
+   },
+   "TG": {
+    "callers": 17,
+    "n": 43
+   }
+  },
+  "call.name.unique": {
+   "GT": {
+    "callers": 27,
+    "n": 141
+   },
+   "TG": {
+    "callers": 20,
+    "n": 73
+   }
+  }
+ },
+ "brier": 0.16041666666666668,
+ "data": {
+  "calldatamgb.csv": {
+   "bytes": 112356,
+   "sha256": "a038401db667a911694a1e9001da9088982466e8b0e26dc8f017ccb9a31070d6",
+   "url": "https://ndownloader.figshare.com/files/56058536"
+  },
+  "readme_calldatamgb.txt": {
+   "bytes": 1057,
+   "sha256": "c4a7b46dcaf7381882ca926b5618fb7017331d9ccaf6f93b8634685eefa07ce3",
+   "url": "https://ndownloader.figshare.com/files/56084786"
+  }
+ },
+ "flags": {
+  "DAY_CONFOUND": true,
+  "ONE_CALLER_DRIVES": false,
+  "POOLED_ONLY": false
+ },
+ "predictions": {
+  "M1": {
+   "outcome": true,
+   "prior": 0.75
+  },
+  "M2": {
+   "outcome": true,
+   "prior": 0.55
+  },
+  "M3": {
+   "outcome": true,
+   "prior": 0.85
+  },
+  "M4": {
+   "outcome": true,
+   "prior": 0.45
+  },
+  "M5": {
+   "outcome": false,
+   "prior": 0.35
+  },
+  "M6": {
+   "outcome": true,
+   "prior": 0.5
+  }
+ },
+ "schema": {
+  "callers": 55,
+  "columns": [
+   "date",
+   "group",
+   "rec_id",
+   "utt_id",
+   "caller",
+   "sex",
+   "call.name.unique",
+   "combi.length.unique",
+   "call.name",
+   "combi.length",
+   "context",
+   "context.length"
+  ],
+  "context_codes": {
+   "counts": [
+    [
+     "FE",
+     662
+    ],
+    [
+     "GI",
+     336
+    ],
+    [
+     "XI",
+     171
+    ],
+    [
+     "RE",
+     149
+    ],
+    [
+     "AF",
+     124
+    ],
+    [
+     "CO",
+     117
+    ],
+    [
+     "XX",
+     100
+    ],
+    [
+     "GG",
+     97
+    ],
+    [
+     "AM",
+     65
+    ],
+    [
+     "GA",
+     60
+    ],
+    [
+     "GZ",
+     46
+    ],
+    [
+     "MI",
+     45
+    ],
+    [
+     "SM",
+     40
+    ],
+    [
+     "IZ",
+     36
+    ],
+    [
+     "RF",
+     36
+    ],
+    [
+     "RG",
+     34
+    ],
+    [
+     "AE",
+     29
+    ],
+    [
+     "FR",
+     29
+    ],
+    [
+     "GM",
+     23
+    ],
+    [
+     "JU",
+     20
+    ],
+    [
+     "XM",
+     18
+    ],
+    [
+     "FM",
+     17
+    ],
+    [
+     "RM",
+     16
+    ],
+    [
+     "BG",
+     15
+    ],
+    [
+     "RI",
+     14
+    ],
+    [
+     "MG",
+     12
+    ],
+    [
+     "RA",
+     12
+    ],
+    [
+     "IT",
+     11
+    ],
+    [
+     "MK",
+     9
+    ],
+    [
+     "IN",
+     8
+    ],
+    [
+     "MO",
+     7
+    ],
+    [
+     "MR",
+     7
+    ],
+    [
+     "SF",
+     7
+    ],
+    [
+     "MF",
+     5
+    ],
+    [
+     "MA",
+     3
+    ],
+    [
+     "SU",
+     3
+    ],
+    [
+     "TR",
+     2
+    ]
+   ],
+   "missing": 0
+  },
+  "delimiter": ",",
+  "rows": 1751,
+  "values_call.name": {
+   "distinct": 55,
+   "top": [
+    [
+     "grunt",
+     1068
+    ],
+    [
+     "twitter",
+     119
+    ],
+    [
+     "vibrato",
+     107
+    ],
+    [
+     "growl",
+     94
+    ],
+    [
+     "grunt_twitter",
+     76
+    ],
+    [
+     "scream",
+     43
+    ],
+    [
+     "twitter_grunt",
+     43
+    ],
+    [
+     "grunt_twitter_grunt",
+     38
+    ],
+    [
+     "shrill_hoo",
+     28
+    ],
+    [
+     "shrill",
+     26
+    ],
+    [
+     "grunt_twitter_grunt_twitter_grunt",
+     15
+    ],
+    [
+     "growl_scream",
+     11
+    ],
+    [
+     "twitter_grunt_twitter_grunt",
+     9
+    ],
+    [
+     "twitter_grunt_twitter",
+     8
+    ],
+    [
+     "grunt_twitter_grunt_twitter_grunt_twitter_grunt",
+     5
+    ],
+    [
+     "shrill_hoo_shrill_hoo",
+     5
+    ],
+    [
+     "scream_growl",
+     4
+    ],
+    [
+     "twitter_grunt_twitter_grunt_twitter_grunt_twitter_grunt",
+     4
+    ],
+    [
+     "growl_scream_growl",
+     3
+    ],
+    [
+     "grunt_twitter_grunt_twitter",
+     3
+    ],
+    [
+     "growl_grumble_growl",
+     2
+    ],
+    [
+     "grunt_twitter_grunt_twitter_grunt_twitter",
+     2
+    ],
+    [
+     "grunt_twitter_grunt_twitter_grunt_twitter_grunt_twitter_grunt",
+     2
+    ],
+    [
+     "scream_growl_scream",
+     2
+    ],
+    [
+     "shrill_hoo_growl",
+     2
+    ],
+    [
+     "twitter_grunt_twitter_grunt_twitter",
+     2
+    ],
+    [
+     "twitter_grunt_twitter_grunt_twitter_grunt",
+     2
+    ],
+    [
+     "growl_grumble_growl_grunt",
+     1
+    ],
+    [
+     "growl_hoo_growl_grumble_growl",
+     1
+    ],
+    [
+     "growl_hoo_growl_hoo_growl",
+     1
+    ],
+    [
+     "growl_hoo_growl_hoo_growl_hoo_growl",
+     1
+    ],
+    [
+     "growl_hoo_growl_hoo_growl_hoo_growl_hoo_growl_hoo_growl_hoo_grumble_hoo_grumble_growl_grumble_hoo_growl_hoo_grumble_growl_hoo_growl_hoo_grumble_hoo_growl_grumble_growl_hoo_growl_grumble_growl_hoo_growl_hoo_growl",
+     1
+    ],
+    [
+     "growl_scream_growl_grumble",
+     1
+    ],
+    [
+     "growl_scream_growl_scream_growl",
+     1
+    ],
+    [
+     "growl_scream_growl_scream_hoo_growl_scream_hoo",
+     1
+    ],
+    [
+     "growl_scream_hoo_growl",
+     1
+    ],
+    [
+     "growl_shrill_hoo",
+     1
+    ],
+    [
+     "growl_shrill_hoo_growl",
+     1
+    ],
+    [
+     "grumble_growl",
+     1
+    ],
+    [
+     "grunt_twitter_grunt_twitter_grunt_twitter_growl",
+     1
+    ]
+   ]
+  },
+  "values_call.name.unique": {
+   "distinct": 28,
+   "top": [
+    [
+     "grunt",
+     1068
+    ],
+    [
+     "grunt_twitter",
+     141
+    ],
+    [
+     "twitter",
+     119
+    ],
+    [
+     "vibrato",
+     107
+    ],
+    [
+     "growl",
+     94
+    ],
+    [
+     "twitter_grunt",
+     73
+    ],
+    [
+     "scream",
+     43
+    ],
+    [
+     "shrill_hoo",
+     34
+    ],
+    [
+     "shrill",
+     26
+    ],
+    [
+     "growl_scream",
+     15
+    ],
+    [
+     "scream_growl",
+     6
+    ],
+    [
+     "scream_hoo",
+     3
+    ],
+    [
+     "growl_grumble",
+     2
+    ],
+    [
+     "growl_hoo",
+     2
+    ],
+    [
+     "growl_hoo_grumble",
+     2
+    ],
+    [
+     "growl_scream_hoo",
+     2
+    ],
+    [
+     "growl_shrill_hoo",
+     2
+    ],
+    [
+     "shrill_hoo_growl",
+     2
+    ],
+    [
+     "growl_grumble_grunt",
+     1
+    ],
+    [
+     "growl_scream_grumble",
+     1
+    ],
+    [
+     "grumble_growl",
+     1
+    ],
+    [
+     "grunt_twitter_growl",
+     1
+    ],
+    [
+     "scream_hoo_grumble_growl",
+     1
+    ],
+    [
+     "scream_twitter_growl",
+     1
+    ],
+    [
+     "shrill_hoo_wau",
+     1
+    ],
+    [
+     "twitter_growl",
+     1
+    ],
+    [
+     "twitter_growl_shrill",
+     1
+    ],
+    [
+     "whoopgobble",
+     1
+    ]
+   ]
+  },
+  "values_group": {
+   "distinct": 2,
+   "top": [
+    [
+     "TCP",
+     1141
+    ],
+    [
+     "TMP",
+     610
+    ]
+   ]
+  },
+  "values_sex": {
+   "distinct": 2,
+   "top": [
+    [
+     "f",
+     1502
+    ],
+    [
+     "m",
+     249
+    ]
+   ]
+  }
+ },
+ "seconds": 2.2,
+ "settings": {
+  "R_null": 2000,
+  "R_power": 1000,
+  "h": [
+   0.15,
+   0.3
+  ],
+  "seed": 20261122
+ },
+ "size_as_published": true,
+ "type_col": "call.name",
+ "verdict": "ORDER_EFFECT_WITHIN_CALLER"
+}
