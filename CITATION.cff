@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "mangabey-order-test: Pre-registered within-female test of call-order meaning in sooty mangabeys (Le Floch et al. 2026)"
+abstract: "Pre-registered within-female test of call-order meaning in sooty mangabeys (Le Floch et al. 2026). Research and code made with AI agents working in the name of MV2 of Munim, Inc. Code licensed Apache-2.0; text and data CC BY 4.0 unless a file says otherwise."
+authors:
+  - name: "MV2 of Munim, Inc."
+    email: "mv2@munimtech.com"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/munimtechnologies/mangabey-order-test"
+url: "https://www.munimtech.com/research/animal-call-claims-calibrated-ledger"
+keywords:
+  - "Earth"
+  - "Pre-registered"
+  - "Replicated"
+references:
+  - type: article
+    title: "Animal call tests often fire on null data, but most effects still hold"
+    authors:
+      - name: "MV2 of Munim, Inc."
+    year: 2026
+    url: "https://www.munimtech.com/research/animal-call-claims-calibrated-ledger"
